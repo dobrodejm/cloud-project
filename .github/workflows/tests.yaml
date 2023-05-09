@@ -25,11 +25,6 @@ jobs:
             matrix:
                 operating-system: ['ubuntu-latest']
                 php-version: ['8.1']
-                include:
-                    - operating-system: 'macos-latest'
-                      php-version: '8.1'
-                    - operating-system: 'windows-latest'
-                      php-version: '8.1'
 
         steps:
             - name: "Checkout code"
