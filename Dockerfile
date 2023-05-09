@@ -8,6 +8,9 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip
 
+RUN docker-php-ext-install  \
+    pdo_mysql
+
 COPY --from=composer:2.5.5 /usr/bin/composer /usr/bin/composer
 
 COPY ./composer.* ./

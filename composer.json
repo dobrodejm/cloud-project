@@ -1,4 +1,6 @@
 {
+    "name": "dobrodejm/cloud-project",
+    "description": "Cloud project containerizing the Symfony Demo application",
     "license": "proprietary",
     "type": "project",
     "minimum-stability": "stable",
@@ -13,6 +15,7 @@
     "require": {
         "php": ">=8.1",
         "ext-pdo_sqlite": "*",
+        "ext-pdo_mysql": "*",
         "doctrine/dbal": "^3.1",
         "doctrine/doctrine-bundle": "^2.8",
         "doctrine/doctrine-migrations-bundle": "^3.0",
