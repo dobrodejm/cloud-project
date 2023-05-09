@@ -1,4 +1,6 @@
 {
+    "name": "dobrodejm/cloud-project",
+    "description": "Cloud project containerizing the Symfony Demo application",
     "license": "proprietary",
     "type": "project",
     "minimum-stability": "stable",
